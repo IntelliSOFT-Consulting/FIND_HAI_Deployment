@@ -35,14 +35,14 @@ The steps are outlined below:
 
 2. cd into the project directory
          
-         cd FIND_AMS_Deployment/ams
+         cd FIND_HAI_Deployment/hai
 
 3. Countercheck the environment variables have been set correctly. They can be found here on the [.env](./.env) file.
   (Refer to the advanced installation steps in the next section for details about the environment variables.) 
 
 4. Make the installation script executable
 
-         sudo chmod 755 ./findams_script.sh
+         sudo chmod 755 ./findhai_script.sh
 
 5. Run the installation script 
 
