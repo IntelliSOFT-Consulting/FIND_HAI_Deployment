@@ -11,3 +11,9 @@ function check_command() {
 # Check if required commands are available
 check_command docker
 check_command docker compose
+
+
+./scripts/seed.sh ./db/db.sql.gz
+
+# Run the application
+./scripts/start.sh
